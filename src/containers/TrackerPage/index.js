@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { fetchSymbols } from '../../actions';
-import { getSymbols } from '../../selectors';
 import TrackerList from '../TrackerList'
-import portfolio from '../../reducers/portfolio';
 
 class TrackerPage extends Component {
   componentDidMount() {

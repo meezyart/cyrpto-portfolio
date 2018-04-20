@@ -26,6 +26,7 @@
 	},
 	"scripts": {
 		"client": "react-scripts start",
+		"build": "react-scripts build",
 		"server": "nodemon server/app.js",
 		"start": "concurrently --kill-others-on-fail \"yarn client\" \"yarn server\""
 	}

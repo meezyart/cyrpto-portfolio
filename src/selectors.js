@@ -1,6 +1,6 @@
 import * as R from 'ramda';
 
-export const getSymbolsBySym = (state, id) => (console.log(id),R.prop(id, state.symbols));
+export const getSymbolsBySym = (state, id) => (R.prop(id, state.symbols));
 
 export const getSymbols = state => {
          const symbols = R.map(id => getSymbolsBySym(state, id), state.trackerPage.ids);

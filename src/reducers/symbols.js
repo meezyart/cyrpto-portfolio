@@ -7,7 +7,7 @@ export default (state = initialState, { type, payload }) => {
     R.forEachObjIndexed(formatObject,payload);
 
 
-    console.log('sybleys selctor ', R.__.selected?payload.id:'' , );
+    // console.log('sybleys selctor ', R.__.selected?payload.id:'' , );
   switch (type) {
     case 'FETCH_SYMBOLS_SUCCESS':
       return R.merge(state, newVal);

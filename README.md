@@ -1,8 +1,7 @@
-#Cyrto Portfolio
+##Cyrto Portfolio
 demo using React and redux
 
 To Install
-
 
 ```yarn```
 

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { addToPortfolio, removeFromPortfolio, checkifActive } from '../../actions';
-import { TrackerItem } from '../TrackerItem'
 
 
 
@@ -15,7 +14,7 @@ class TrackerList extends Component {
       removeFromPortfolio,
       portfolio
     } = this.props;
-    console.log(symbols, 'portfolio', portfolio);
+    // console.log(symbols, 'portfolio', portfolio);
     return (
       <table className="table">
         <thead>
