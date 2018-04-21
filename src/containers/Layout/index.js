@@ -4,7 +4,7 @@ import TrackerPage from '../TrackerPage';
 const Header = () => (
   <section className="hero is-info">
     <div className="hero-body is-size-3 has-text-centered">
-      LeapYear Fullstack Challenge
+      Cryptocurrency TRACKER!
     </div>
   </section>
 );
